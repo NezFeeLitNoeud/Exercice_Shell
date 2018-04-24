@@ -1,15 +1,9 @@
 # Exercice_Shell
 
 Last login: Mon Apr 23 12:58:08 on ttys000
-macbook-air-de-neph:~ NezFeeLitNoeud$ cd Jaime_le_shell
--bash: cd: Jaime_le_shell: No such file or directory
 macbook-air-de-neph:~ NezFeeLitNoeud$ mkdir Jaime_le_shell
 macbook-air-de-neph:~ NezFeeLitNoeud$ cd jaime_le_shell
 macbook-air-de-neph:jaime_le_shell NezFeeLitNoeud$ touch test1
-macbook-air-de-neph:jaime_le_shell NezFeeLitNoeud$ ls /l
-ls: /l: No such file or directory
-macbook-air-de-neph:jaime_le_shell NezFeeLitNoeud$ lk -l
--bash: lk: command not found
 macbook-air-de-neph:jaime_le_shell NezFeeLitNoeud$ ls -l
 total 0
 -rw-r--r--  1 NezFeeLitNoeud  staff  0 23 avr 14:05 test1
@@ -31,6 +25,8 @@ drwxr-xr-x  2 NezFeeLitNoeud  staff  64 23 avr 14:06 test3
 drwxr-xr-x  2 NezFeeLitNoeud  staff  64 23 avr 14:06 test4
 -rw-r--r--  1 NezFeeLitNoeud  staff   0 23 avr 14:06 test5
 drwxr-xr-x  2 NezFeeLitNoeud  staff  64 23 avr 14:06 test6
+
+
 macbook-air-de-neph:jaime_le_shell NezFeeLitNoeud$ cd ..de-neph:jaime_le_shell Nmacbook-air-de-neph:~ NezFeeLitNoeud$ ls
 Applications            Library
 Blizzard            Movies
@@ -39,6 +35,8 @@ Desktop                Pictures
 Documents            Public
 Downloads            Uninstall C-Pen Core.app
 Jaime_le_shell
+
+
 macbook-air-de-neph:~ NezFeeLitNoeud$ cd jaime_le_shell
 macbook-air-de-neph:jaime_le_shell NezFeeLitNoeud$ ls
 test1    test2    test3    test4    test5    test6
@@ -66,6 +64,8 @@ drwx------+  4 NezFeeLitNoeud  staff        128 23 jan  2016 Music
 drwx------+  7 NezFeeLitNoeud  staff        224 20 mai  2017 Pictures
 drwxr-xr-x+  5 NezFeeLitNoeud  staff        160 22 jan  2016 Public
 drwxrwxrwx@  3 267794189       1602597546    96 13 jul  2015 Uninstall C-Pen Core.app
+
+
 macbook-air-de-neph:~ NezFeeLitNoeud$ cd Jaime_le_shell
 macbook-air-de-neph:Jaime_le_shell NezFeeLitNoeud$ ls
 test1    test2    test3    test4    test5    test6
@@ -211,6 +211,8 @@ drwxr-xr-x  2 NezFeeLitNoeud  staff   64 23 avr 14:06 test2
 drwxr-xr-x  2 NezFeeLitNoeud  staff   64 23 avr 14:06 test3
 drwxr-xr-x  2 NezFeeLitNoeud  staff   64 23 avr 14:06 test4
 drwxr-xr-x  2 NezFeeLitNoeud  staff   64 23 avr 14:06 test6
+
+
 macbook-air-de-neph:jaime_le_shell NezFeeLitNoeud$ echo "# Exercice_Shell" >> README.md
 macbook-air-de-neph:jaime_le_shell NezFeeLitNoeud$ git init
 Initialized empty Git repository in /Users/NezFeeLitNoeud/Jaime_le_shell/.git/
@@ -263,13 +265,6 @@ create mode 100644 README.md
 create mode 100644 le_shell_cest_trop_cool!/test1
 create mode 100644 le_shell_cest_trop_cool!/test5
 macbook-air-de-neph:jaime_le_shell NezFeeLitNoeud$ git remote add origin https://github.com/NezFeeLitNoeud/Exercice_Shell.git
-macbook-air-de-neph:jaime_le_shell NezFeeLitNoeud$ push -u origin master
--bash: push: command not found
-macbook-air-de-neph:jaime_le_shell NezFeeLitNoeud$ push origin master
--bash: push: command not found
-macbook-air-de-neph:jaime_le_shell NezFeeLitNoeud$ git status
-On branch master
-nothing to commit, working tree clean
 macbook-air-de-neph:jaime_le_shell NezFeeLitNoeud$ git push -u origin master
 Username for 'https://github.com': NezFeeLitNoeud
 Password for 'https://NezFeeLitNoeud@github.com':
