@@ -1,25 +1,24 @@
-{ Shell }  » mkdir Jaime_le_shell					    ~/Coder Simplon/Shell
+{ Exo1 }  » mkdir Jaime_le_shell					  
 
-{ Shell }  » touch test1                                                    ~/Coder Simplon/Shell
+{ Exo1 }  » touch test1                                                   
 
-{ Shell }  » touch test5                                                    ~/Coder Simplon/Shell
+{ Exo1 }  » touch test5                                                   
 
-{ Shell }  » mkdir test2                                                    ~/Coder Simplon/Shell
+{ Exo1 }  » mkdir test2                                                    
 
-{ Shell }  » mkdir test3                                                    ~/Coder Simplon/Shell
+{ Exo1 }  » mkdir test3                                                    
 
-{ Shell }  » mkdir test4                                                    ~/Coder Simplon/Shell
+{ Exo1 }  » mkdir test4                                                    
 
-{ Shell }  » mkdir test6                                                    ~/Coder Simplon/Shell
+{ Exo1 }  » mkdir test6                                                   
 
-{ Shell }  » mkdir le_shell_cest_trop_cool                                  ~/Coder Simplon/Shell
+{ Exo2 }  » mkdir le_shell_cest_trop_cool                                  
 
-{ Shell }  » mv test1 le_shell_cest_trop_cool                               ~/Coder Simplon/Shell
+{ Exo3 }  » mv test1 le_shell_cest_trop_cool                               
 
-{ Shell }  » mv test5 le_shell_cest_trop_cool                               ~/Coder Simplon/Shell
+{ Exo3 }  » mv test5 le_shell_cest_trop_cool                              
 
-{ Shell }  » cp -r test2 le_shell_cest_trop_cool                            ~/Coder Simplon/Shell
+{ Exo3 }  » cp -r test2 le_shell_cest_trop_cool                            
 
-{ Shell }  » cp -r test6 le_shell_cest_trop_cool                            ~/Coder Simplon/Shell
-
-{ Shell }  » cd ..                                                          ~/Coder Simplon/Shell
+{ Exo3 }  » cp -r test6 le_shell_cest_trop_cool                            
+                                                        
